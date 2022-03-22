@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/reset.css" />
+    <link rel="stylesheet" href="./src/style/root.css" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="./src/style/container_content/container_content.css"
+    />
+    <title>Camp.in</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="container-content">
+        <header class="header-logo">
+          <img src="./src/images/logo.svg" alt="logo" />
+        </header>
+
+        <section class="form-container">
+
+          <div class="form-container-wrapper">
+            <div class="form-container-title">
+              <div class="form-title-box">
+                <img src="./src/images/log-in.svg" alt="ícone log-in"  class="form-title-icon"/>
+              <h2 class="form-title">Faça seu login</h2>
+              </div>
+              <span class="form-container-info">Entre com suas informações de cadastro.</span>
+            </div>
+  
+            <form action="#" class="form">
+              <div class="form-box form-box-email">
+                <label for="input-email" class="label">E-mail</label>
+                <div class=" input-wrapper email-wrapper">
+                  <img src="./src/images/mail.svg" alt="ícone de email" class="form-box-icon form-box-icon-email"/>
+                  <img src="./src/images/mail-focus.svg" alt="ícone de email" class="icon-active active-email"/>
+                  <input
+                    type="email"
+                    class="input-box"
+                    id="input-email"
+                    placeholder="Digite seu e-mail"
+                    autocomplete="off"
+                  />
+                </div>
+  
+              </div>
+              <div class="form-box form-box-password">
+                <label for="input-password" class="label">Senha</label>
+                <div class="input-wrapper  password-wrapper">
+                  <img src="./src/images/lock.svg" alt="ícone de email" class="form-box-icon form-box-icon-password"/>
+                  <img src="./src/images/lock-focus.svg" alt="ícone de senha" class="icon-active  active-password"/>
+                  <input
+                    type="password"
+                    class="input-box"
+                    id="input-password"
+                    placeholder="Digite sua senha"
+                  />
+  
+                  <img src="./src/images/eye.svg" alt="ícone eye" class="form-box-icon-eye">
+              </div>
+            </div>
+  
+              <div class="checked-wrapper">
+                <div class="checked">
+                  <div class="checked-box">
+                    <img src="./src/images/check.svg" alt="check" class="check-icon">
+                  </div>
+                  <span class="info-checked">Lembre-me</span>
+                </div>
+                <a href="#" class="form-link">Esqueci minha senha</a>
+              </div>
+  
+              <button class="button-enter">Entrar</button>
+  
+              <span class="form-link form-link-description">Não tem uma conta ? <a href="#" class="form-link">Registre-se</a></span>
+            </form>
+          </section>
+          
+      </section>
+
+      <img
+        src="./src/images/side-image.jpg"
+        alt="imagem ilustrativa"
+        class="container-image"
+      />
+    </main>
+    <script src="./src/script/index.js"></script>
+  </body>
+</html>
